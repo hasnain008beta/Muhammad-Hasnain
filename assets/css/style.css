@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    width: 100vw;
+}
+
+.hero{
+    min-height:20vh;
+    display:flex;
+    align-items:center;
+}
+.img-fluid {
+    max-width: 70%;
+    height: auto;
+ }
+.hero h1{
+    font-size:60px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:20px;
+}
+.about{
+    background:#f5f5f5;
+}
+
+.about h2{
+    font-size:40px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.about p{
+    font-size:18px;
+    line-height:30px;
+}
+.skills{
+     
+    height: 70vh;
+}
+.skills .card{
+    transition:0.3s;
+    font-weight:bold;
+}
+
+.skills .card:hover{
+    background:#0d6efd;
+    color:white;
+    transform:translateY(-5px);
+}
+.skills-container .row{ 
+    padding-top: 100px;
+}
+.projects{
+    background:#000000;
+}
+
+.projects .card{
+    transition:0.3s;
+    border:none;
+}
+
+.projects .card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+.card-text{
+    color: white;
+}
+.contact{
+    background:#f8f9fa;
+}
+
+.contact h2{
+    font-weight:bold;
+}
+
+.contact form{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
